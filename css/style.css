@@ -270,7 +270,8 @@ body{
     transition:all 0.5s ease 0s;
   }
   .item:hover .item,
-  .item:hover span.icon{
+  .item:hover span.icon,
+  .item:hover .portfolio-thumb{
     background:#fff;
     border-radius: 10px;
     -webkit-transition:all 0.5s ease 0s;
@@ -398,7 +399,8 @@ body{
     transition:all 0.7s ease 0s;
   }
   .item:hover .item,
-  .item:hover span.icon{
+  .item:hover span.icon,
+  .item:hover .portfolio-thumb{
     background:#fff;
     border-radius: 10px;
     -webkit-transition:all 0.5s ease 0s;
@@ -418,6 +420,23 @@ body{
     height:90px;
     line-height: 96px;
     border-radius: 50px;
+  }
+  .item > a {
+    color: #333;
+  }
+  .item .portfolio-thumb{
+    margin: 0 auto 25px;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  }
+  .item .portfolio-thumb img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
   .item .feature_box_col_one{
     background:rgba(247,198,5,0.2);
