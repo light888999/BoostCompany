@@ -55,6 +55,13 @@ $(document).ready(function(){
     
 })(jQuery);
 
+  $('#about-read-more').click(function(e){
+      e.preventDefault();
+      $('#about-more').slideToggle(300);
+      const current = $(this).text().trim();
+      $(this).text(current === 'Read More' ? 'Read Less' : 'Read More');
+  });
+
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
         $('.back-to-top').fadeIn('slow');

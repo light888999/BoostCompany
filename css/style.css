@@ -236,6 +236,33 @@ body{
     color: #333;
     padding: 1rem 0;
 }
+.about .row .content-inner{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-more{
+    display: none;
+    margin: 2rem auto 1rem;
+    max-width: 800px;
+    padding: 2rem 2.5rem;
+    border-radius: 1.2rem;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+    background-color: #fff;
+    text-align: left;
+}
+
+.about-more h3{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-more p{
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin-bottom: 0.8rem;
+}
 .pt-5 .container .row .section-head p{
     font-size: 2rem;
     color: #333;
@@ -244,7 +271,6 @@ body{
   .section-head{
     margin-bottom: 60px;
     text-align: center;
-    margin-top: -8rem;
   }
   .section-head p{
     font-size: 20px;
